@@ -209,10 +209,6 @@ module.exports = function(strapi) {
     boom: {
       enabled: true,
     },
-    mask: {
-      enabled: true,
-    },
-    // Necessary middlewares for the administration panel.
     cors: {
       enabled: true,
     },
